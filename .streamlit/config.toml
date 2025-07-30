@@ -1,4 +1,4 @@
-# Create this file as .streamlit/config.toml in your project root
+# .streamlit/config.toml
 # Claude AI Inspired Theme 🤖
 
 [theme]
@@ -7,29 +7,3 @@ primaryColor = "#D97706"
 backgroundColor = "#FEFBF3"
 secondaryBackgroundColor = "#F5F1E8"
 textColor = "#1F2937"
-
-[server]
-maxUploadSize = 200
-maxMessageSize = 200
-enableCORS = false
-enableXsrfProtection = true
-port = 8501
-baseUrlPath = ""
-headless = false
-
-[browser]
-gatherUsageStats = false
-serverAddress = "localhost"
-serverPort = 8501
-
-[client]
-showErrorDetails = true   # ✅ This one is fine to keep
-
-[runner]
-magicEnabled = true
-postScriptGC = true
-fastReruns = true
-
-[logger]
-level = "info"
-messageFormat = "%(asctime)s %(message)s"
