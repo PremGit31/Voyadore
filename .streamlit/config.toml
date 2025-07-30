@@ -2,57 +2,34 @@
 # Claude AI Inspired Theme 🤖
 
 [theme]
-# Claude's signature warm, intelligent aesthetic
 base = "light"
-primaryColor = "#D97706"      # Claude's warm amber/orange accent
-backgroundColor = "#FEFBF3"   # Warm cream background (like Claude's chat)
-secondaryBackgroundColor = "#F5F1E8"  # Slightly darker cream for containers
-textColor = "#1F2937"         # Deep charcoal for excellent readability
-
-# Dark mode alternative (Claude's evening mode)
-# base = "dark" 
-# primaryColor = "#F59E0B"      # Brighter amber for dark mode
-# backgroundColor = "#111827"   # Deep blue-gray background
-# secondaryBackgroundColor = "#1F2937"  # Lighter blue-gray for containers
-# textColor = "#F9FAFB"         # Off-white text
+primaryColor = "#D97706"
+backgroundColor = "#FEFBF3"
+secondaryBackgroundColor = "#F5F1E8"
+textColor = "#1F2937"
 
 [server]
-# Performance optimizations
 maxUploadSize = 200
 maxMessageSize = 200
 enableCORS = false
 enableXsrfProtection = true
-
-# Connection settings
 port = 8501
 baseUrlPath = ""
 headless = false
 
 [browser]
-# Auto-open browser
 gatherUsageStats = false
 serverAddress = "localhost"
 serverPort = 8501
 
 [client]
-# UI enhancements
-caching = true
-displayEnabled = true
-showErrorDetails = true
+showErrorDetails = true   # ✅ This one is fine to keep
 
 [runner]
-# Performance settings
 magicEnabled = true
-installTracer = false
-fixMatplotlib = true
 postScriptGC = true
 fastReruns = true
 
 [logger]
-# Logging configuration
 level = "info"
 messageFormat = "%(asctime)s %(message)s"
-
-[deprecation]
-# Handle deprecated features
-showPyplotGlobalUse = false
