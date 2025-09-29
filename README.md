@@ -1,7 +1,8 @@
 # Voyadore 🌏 - Your AI Travel Companion
 
-![Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit)
+![LangChain Python Documentation](https://python.langchain.com/docs/get_started/introduction)
 
 ## 🚀 Overview
 
@@ -9,7 +10,7 @@ Voyadore is an AI-powered travel planning assistant that helps you plan your per
 
 ## ✨ Features
 
-- 🤖 **AI Travel Assistant**: Get personalized travel recommendations using Google's Gemini AI
+- 🤖 **AI Travel Assistant**: Get personalized travel recommendations using Google's Gemini API
 - 📄 **PDF Document Analysis**: Upload and analyze travel documents for quick summaries
 - 🎥 **Travel Content**: Find curated YouTube videos and websites about your destination
 - 🗺️ **Interactive Maps**: Explore nearby attractions, restaurants, and points of interest
@@ -19,7 +20,7 @@ Voyadore is an AI-powered travel planning assistant that helps you plan your per
 ## 🛠️ Tech Stack
 
 - **Frontend**: Streamlit
-- **AI/ML**: LangChain, Google Gemini AI
+- **AI**: LangChain, Google Gemini AI
 - **APIs**: 
   - Weather API
   - SerpAPI
@@ -76,4 +77,4 @@ streamlit run Voyadore.py
 
 
 ---
-Made with 🤍 using Streamlit and Gemini AI
+Made with 🤍 using Langchain, Streamlit and Gemini API.
